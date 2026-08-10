@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bebright1-full-stack.vercel.app/</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://bebright1-full-stack.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://bebright1-full-stack.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://bebright1-full-stack.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://bebright1-full-stack.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://bebright1-full-stack.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="en-SG" href="https://bebright1-full-stack.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://bebright1-full-stack.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bebright1-full-stack.vercel.app/"/>
   </url>
 </urlset>
