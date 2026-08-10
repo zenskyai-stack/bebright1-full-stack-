@@ -50,6 +50,17 @@ def home():
     return send_from_directory(BASE_DIR / 'templates', 'index.html')
 
 
+@app.route('/robots.txt')
+def robots():
+    return send_from_directory(BASE_DIR / 'static', 'robots.txt', mimetype='text/plain')
+
+
+@app.route('/sitemap.xml')
+def sitemap():
+    return send_from_directory(BASE_DIR / 'static', 'sitemap.xml', mimetype='application/xml')
+
+
+
 @app.post('/api/enquiries')
 def create_enquiry():
     data = request.get_json(silent=True) or {}
